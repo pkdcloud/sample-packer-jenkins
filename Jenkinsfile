@@ -1,6 +1,6 @@
 
 pipeline {
-    agent { docker { image 'hasicorp/packer:latest' } }
+    agent { docker { image 'hashicorp/packer:latest' } }
     stages {
         stage('---:build: packer ami    ') {
             steps {
@@ -9,3 +9,4 @@ pipeline {
         }
     }
 }
+
