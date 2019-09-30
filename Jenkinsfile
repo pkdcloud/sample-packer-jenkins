@@ -1,4 +1,4 @@
-Jenkinsfile (Declarative Pipeline)
+
 pipeline {
     agent { docker { image 'hasicorp/packer:latest' } }
     stages {
@@ -8,4 +8,4 @@ pipeline {
             }
         }
     }
-}s
+}
